@@ -1,4 +1,6 @@
-Libraries
+## Libraries
+
+### Matplotlib
 ```
 %matplotlib inline
 import numpy as np  // uses the Numpy 
