@@ -2,12 +2,12 @@
 Answer: Amazon SageMaker is a fully managed service that enables data scientists and developers to build, train, and deploy machine learning models quickly and at scale. Unlike other platforms, SageMaker offers integrated tools for every step of the ML workflow: data preparation, feature engineering, model training, tuning, and deployment. Key differentiators include managed infrastructure, automatic model tuning, integration with other AWS services (such as S3 for storage and Lambda for serverless functions), and managed hosting, making it a comprehensive solution for production ML.
 
 **2. Can you explain the basic architecture of AWS SageMaker?**\
-Answer: SageMaker’s architecture consists of several integrated components:
-Notebook Instances: Jupyter notebooks for data exploration and preprocessing.
-Training: Allows you to select built-in algorithms, custom training scripts, or third-party models and provides distributed training options.
-Model Registry: Stores and organizes ML models for deployment.
-Deployment: Managed deployment for inference, enabling endpoint creation for real-time or batch predictions.
-Ground Truth: Data labeling for model training.
+Answer: SageMaker’s architecture consists of several integrated components:\
+Notebook Instances: Jupyter notebooks for data exploration and preprocessing.\
+Training: Allows you to select built-in algorithms, custom training scripts, or third-party models and provides distributed training options.\
+Model Registry: Stores and organizes ML models for deployment.\
+Deployment: Managed deployment for inference, enabling endpoint creation for real-time or batch predictions.\
+Ground Truth: Data labeling for model training.\
 Integration: Works seamlessly with other AWS services (e.g., S3 for storage, IAM for authentication, and CloudWatch for monitoring).
 
 **3. What are the main components of SageMaker?**\
